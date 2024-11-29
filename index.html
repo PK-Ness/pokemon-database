@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+  <html lang="en"></html>
+  <script src="./script.js"></script>
+<script src="https://kit.fontawesome.com/d50cb7157a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Things Pokémon</title>
+  </head>
+
+  <body>
+    <h1>All Things Pokémon</h1>
+    <h2>Your Pokémon Database</h2>
+    <input id="search-input" required placeholder="Enter a name or a number"></input>
+    <button id="search-button">Search</button>
+    <p id="pokemon-id">#-</p>
+    <p id="pokemon-name">Name</p>
+<div class="info-container">
+      <div class="pokemon-img"></div>
+  <div class="pokemon-info">
+    <h3>Pokémon Description:</h3>
+    <p id="height">Height:</p>
+    <p id="weight">Weight:</p>
+    <p id="types">Type:</p>
+  </div>
+</div>
+    <div class="pokemon-stats">
+      <table>
+  <thead>
+    <tr>
+      <th>Stats</th>
+      <th>Individual Values (IVs) - Lv 100</th>
+    </tr>
+  </thead>
+  <tbody id="tableStats">
+    <th class="stats">HP:</th>
+    <th class="ivs" id="hp">0</th>
+    <tr>
+        <th class="stats">Attack:</th>
+        <th class="ivs" id="attack">0</th>
+    </tr>
+    <tr>
+        <th class="stats">Defense:</th>
+        <th class="ivs" id="defense">0</th>
+    </tr>
+    <tr>
+        <th class="stats">Special Attack:</th>
+        <th class="ivs" id="special-attack">0</th>
+    </tr>
+    <tr>
+        <th class="stats">Special Defense:</th>
+        <th class="ivs" id="special-defense">0</th>
+    </tr>
+    <tr>
+        <th class="stats">Speed:</th>
+        <th class="ivs" id="speed">0</th>
+    </tr>
+  </tbody>
+</table>
+    </div>
+    </body>

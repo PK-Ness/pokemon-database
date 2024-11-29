@@ -1,0 +1,22 @@
+h1{
+    font-family: 'Pokemon Solid', Calibri;
+    letter-spacing: 7px;
+    -webkit-text-stroke: 0.1px navy;
+    color: yellow;
+    text-shadow: 3px 3px 3px navy;
+    font-size: 50px
+  }
+  th{
+    background-color: yellow;
+    text-align: left;
+  }
+  .stats{
+    width: 200px
+  }
+  .ivs{
+    text-align: center;
+  }
+  h2{
+    font-family: Calibri;
+    text-shadow: 1px 1px 1px gray;
+  }
